@@ -8,9 +8,11 @@
     <body>
         <img src="image/image.jpg" alt="image" id="image" />
         <script>
-          $('#image').dblclick(function(){//On récupère l'image pour lui appliquer une fonction double cliques
-            $(this).css('width', '500px');//On défini le resulat suite au double cliques sur l'image
-        });
+          $(function(){
+            $('#image').dblclick(function(){//On récupère l'image pour lui appliquer une fonction double cliques
+              $(this).css('width', '500px');//On défini le resulat suite au double cliques sur l'image
+            });
+          });
         </script>
     </body>
   </html>
